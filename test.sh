@@ -4,7 +4,7 @@ read NAME
 if [ $NAME = $USER ]
 
 then
-if [ -e ./someFile.txt ]
+if [ -e ./hello.txt ]
 then
 echo "Hello $NAME"
 else
